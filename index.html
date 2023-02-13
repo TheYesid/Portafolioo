@@ -9,11 +9,44 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <nav class="nav">
+        <button class="show">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <ul class="menu">
+            <li class="menu_item home">
+                <a href="#home">Home</a>
+            </li>
+            <li class="menu_item acerca">
+                <a href="#acerca">Acerca de mi</a>
+            </li>
+            <li class="menu_item exp">
+                <a href="#exp">Experiencia</a>
+            </li>
+            <li class="menu_item habilitys">
+                <a href="#habilitys">Mis habilidades</a>
+            </li>
+            <li class="menu_item mi_brief">
+                <a href="#mi_brief">Mi portafolio</a>
+            </li>
+            <li class="menu_item contact">
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+
+    </nav>
     <main>
-        <section class="section_1">
-            <!-- <div>
-                <img class="vector_1" src="./Vectores/Rectangle 33.svg" alt="vector1">
-            </div> -->
+
+        <div class="vector_1">
+            <img class="vector_1" src="./assets/Vectores/Rectangle 33.svg" alt="vector1">
+        </div>
+
+        <div class="vector_2">
+            <img class="vector_2" src="./assets/Vectores/Rectangle 34-1.svg" alt="vector2">
+        </div>
+
+        <section id="home" class="section_1 ">
             <div class="main_1">
                 <h1>Vanessa H.</h1>
                 <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
@@ -34,13 +67,13 @@
             </div>
 
             <div  class="perfil_desktop">
-                <img class="perfil_img_desktop" src="./assets/img/photo mobile.png" alt="perfil">
+                <img class="perfil_img_desktop" src="./assets/img/photo desktop.png" alt="perfil">
             </div>
 
         </section>
     </main>
 
-        <section class="section_2">
+        <section id="acerca" class="section_2">
             <div class="main_2">
                 <h2 class="subtittle">Acerca de mi</h2>
                 <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi unde porro, autem asperiores non deserunt pariatur architecto odit. Minus voluptates provident dignissimos ab, eius repellendus assumenda ipsa inventore! Neque, ea iste delectus laborum facere veritatis dignissimos labore quia eaque repellendus beatae officia a aliquid dolorem! Quo exercitationem quos corrupti.</h3>
@@ -64,7 +97,7 @@
             </div>
         </section>
 
-        <section class="section_3">
+        <section id="exp" class="section_3">
             <h2 class="subtittle">Experiencia</h2>
 
                 <div class="company_1">
@@ -98,8 +131,9 @@
                 </div>
         </section>
 
-        <section class="section_4">
-            <h2>Mis habilidades</h2>
+        <section id="habilitys" class="section_4">
+                <div class="draw_2" ></div>
+                <h2>Mis habilidades</h2>
 
                 <div class="skills">
                     <div class="mobile">
@@ -129,17 +163,20 @@
                 </div>
         </section>
 
-        <section class="section_5">
+        <section id="mi_brief" class="section_5">
             <h2 class="subtittle">Mi Portafolio</h2>
 
             <div class="briefcase">
+                <div class="vector_3"></div>
+                <div class="vector_4"></div>
+                <div class="vector_5"></div>
                     <img  class="briefcase_1" src="./assets/img/image 9-1.jpg" alt="proyect_1">
                     <img  class="briefcase_2" src="./assets/img/image 10.jpg" alt="proyect_2">
                     <img  class="briefcase_3" src="./assets/img/image 11.jpg" alt="proyect_3">
             </div>
         </section>
 
-        <section class="section_6">
+        <section id="contact" class="section_6">
             <h2 class="subtittle">Contacto</h2>
 
             <di class="section_contact">
@@ -160,5 +197,7 @@
             <footer>
                 <p>Hecho con <i class='bx bxs-heart'></i> en Academlo</p>
             </footer>
+
+            <script src="./assets/javascript.js/main.js"></script>
 </body>
 </html>
